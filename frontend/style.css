@@ -1,0 +1,79 @@
+/* Fundo gradiente azul e branco */
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  background: linear-gradient(to bottom right, #ffffff, #1e90ff);
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+/* Container principal */
+.container {
+  width: 100%;
+  max-width: 400px;
+  padding: 30px 20px;
+  margin-top: 40px;
+  background-color: rgba(255, 255, 255, 0.95);
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+/* Títulos */
+h1 {
+  color: #004080;
+  margin-bottom: 20px;
+}
+
+h2 {
+  color: #004080;
+  margin-top: 30px;
+}
+
+/* Formulário */
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+button {
+  padding: 12px;
+  background-color: #004080;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background-color: #0055cc;
+}
+
+/* Lista de clientes */
+#listaClientes {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+  text-align: left;
+}
+
+#listaClientes li {
+  margin-bottom: 8px;
+  color: #333;
+  background-color: #e8f0ff;
+  padding: 8px;
+  border-radius: 5px;
+}
